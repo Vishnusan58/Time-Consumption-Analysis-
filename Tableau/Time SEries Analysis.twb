@@ -1,0 +1,885 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20232.23.0805.0415                               -->
+<workbook original-version='18.1' source-build='2023.2.1 (20232.23.0805.0415)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Sheet1 (orginal dataset) (2)' inline='true' name='federated.0rcdht1128b2ag1acvpny1ufobop' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='orginal dataset' name='excel-direct.02kedc20eacoye1676pbh1vfn28k'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/vishn/Desktop/Rajalakshmi car&apos;s Data Analysis/orginal dataset.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.02kedc20eacoye1676pbh1vfn28k' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:I652:no:A1:I652:0' header='yes' outcome='6'>
+            <column datatype='string' name='Model Name' ordinal='0' />
+            <column datatype='string' name='link_Service_Type' ordinal='1' />
+            <column datatype='date' name='JobCard Open Date' ordinal='2' />
+            <column datatype='date' name='JC Close Date' ordinal='3' />
+            <column datatype='date' name='Bill Date' ordinal='4' />
+            <column datatype='real' name='Open to Close' ordinal='5' />
+            <column datatype='real' name='Close to Bill' ordinal='6' />
+            <column datatype='real' name='Open to Bill' ordinal='7' />
+            <column datatype='datetime' name='Time Open to Close' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.02kedc20eacoye1676pbh1vfn28k' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:I652:no:A1:I652:0' header='yes' outcome='6'>
+            <column datatype='string' name='Model Name' ordinal='0' />
+            <column datatype='string' name='link_Service_Type' ordinal='1' />
+            <column datatype='date' name='JobCard Open Date' ordinal='2' />
+            <column datatype='date' name='JC Close Date' ordinal='3' />
+            <column datatype='date' name='Bill Date' ordinal='4' />
+            <column datatype='real' name='Open to Close' ordinal='5' />
+            <column datatype='real' name='Close to Bill' ordinal='6' />
+            <column datatype='real' name='Open to Bill' ordinal='7' />
+            <column datatype='datetime' name='Time Open to Close' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:I652:no:A1:I652:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Model Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Model Name]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Model Name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIO_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_A562C81FEF194E01A76B68DB0E53B5EA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>link_Service_Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[link_Service_Type]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>link_Service_Type</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIO_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_A562C81FEF194E01A76B68DB0E53B5EA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>JobCard Open Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[JobCard Open Date]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>JobCard Open Date</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_A562C81FEF194E01A76B68DB0E53B5EA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>JC Close Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[JC Close Date]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>JC Close Date</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_A562C81FEF194E01A76B68DB0E53B5EA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Bill Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Bill Date]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Bill Date</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_A562C81FEF194E01A76B68DB0E53B5EA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Open to Close</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Open to Close]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Open to Close</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_A562C81FEF194E01A76B68DB0E53B5EA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Close to Bill</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Close to Bill]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Close to Bill</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_A562C81FEF194E01A76B68DB0E53B5EA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Open to Bill</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Open to Bill]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Open to Bill</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_A562C81FEF194E01A76B68DB0E53B5EA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Time Open to Close</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Time Open to Close]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Time Open to Close</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_A562C81FEF194E01A76B68DB0E53B5EA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_A562C81FEF194E01A76B68DB0E53B5EA]' role='measure' type='quantitative' />
+      <column caption='link Service Type' datatype='string' name='[link_Service_Type]' role='dimension' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_A562C81FEF194E01A76B68DB0E53B5EA'>
+            <properties context=''>
+              <relation connection='excel-direct.02kedc20eacoye1676pbh1vfn28k' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:I652:no:A1:I652:0' header='yes' outcome='6'>
+                  <column datatype='string' name='Model Name' ordinal='0' />
+                  <column datatype='string' name='link_Service_Type' ordinal='1' />
+                  <column datatype='date' name='JobCard Open Date' ordinal='2' />
+                  <column datatype='date' name='JC Close Date' ordinal='3' />
+                  <column datatype='date' name='Bill Date' ordinal='4' />
+                  <column datatype='real' name='Open to Close' ordinal='5' />
+                  <column datatype='real' name='Close to Bill' ordinal='6' />
+                  <column datatype='real' name='Open to Bill' ordinal='7' />
+                  <column datatype='datetime' name='Time Open to Close' ordinal='8' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Observational on the Dataset' inline='true' name='federated.11cgfn01dkr4mh1f3dndp05bsjj1' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Observational on the Dataset' name='excel-direct.09xcpzz0sgzixw10yzatn0akr2z3'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/vishn/Desktop/Rajalakshmi car&apos;s Data Analysis/Observational on the Dataset.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.09xcpzz0sgzixw10yzatn0akr2z3' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:G663:no:A1:G663:0' header='yes' outcome='2'>
+            <column datatype='string' name='Model Name' ordinal='0' />
+            <column datatype='string' name='link_Service_Type' ordinal='1' />
+            <column datatype='date' name='JobCard Open Date' ordinal='2' />
+            <column datatype='date' name='JC Close Date' ordinal='3' />
+            <column datatype='date' name='Bill Date' ordinal='4' />
+            <column datatype='datetime' name='Time Open to Close' ordinal='5' />
+            <column datatype='real' name='Open to Close' ordinal='6' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.09xcpzz0sgzixw10yzatn0akr2z3' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:G663:no:A1:G663:0' header='yes' outcome='2'>
+            <column datatype='string' name='Model Name' ordinal='0' />
+            <column datatype='string' name='link_Service_Type' ordinal='1' />
+            <column datatype='date' name='JobCard Open Date' ordinal='2' />
+            <column datatype='date' name='JC Close Date' ordinal='3' />
+            <column datatype='date' name='Bill Date' ordinal='4' />
+            <column datatype='datetime' name='Time Open to Close' ordinal='5' />
+            <column datatype='real' name='Open to Close' ordinal='6' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:G663:no:A1:G663:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Model Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Model Name]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Model Name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIO_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_C11937891F7A495FBDFF451D39E3FC08]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>link_Service_Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[link_Service_Type]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>link_Service_Type</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIO_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_C11937891F7A495FBDFF451D39E3FC08]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>JobCard Open Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[JobCard Open Date]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>JobCard Open Date</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_C11937891F7A495FBDFF451D39E3FC08]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>JC Close Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[JC Close Date]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>JC Close Date</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_C11937891F7A495FBDFF451D39E3FC08]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Bill Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Bill Date]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Bill Date</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_C11937891F7A495FBDFF451D39E3FC08]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Time Open to Close</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Time Open to Close]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Time Open to Close</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_C11937891F7A495FBDFF451D39E3FC08]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Open to Close</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Open to Close]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Open to Close</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_C11937891F7A495FBDFF451D39E3FC08]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_C11937891F7A495FBDFF451D39E3FC08]' role='measure' type='quantitative' />
+      <column caption='link Service Type' datatype='string' name='[link_Service_Type]' role='dimension' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_C11937891F7A495FBDFF451D39E3FC08'>
+            <properties context=''>
+              <relation connection='excel-direct.09xcpzz0sgzixw10yzatn0akr2z3' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:G663:no:A1:G663:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Model Name' ordinal='0' />
+                  <column datatype='string' name='link_Service_Type' ordinal='1' />
+                  <column datatype='date' name='JobCard Open Date' ordinal='2' />
+                  <column datatype='date' name='JC Close Date' ordinal='3' />
+                  <column datatype='date' name='Bill Date' ordinal='4' />
+                  <column datatype='datetime' name='Time Open to Close' ordinal='5' />
+                  <column datatype='real' name='Open to Close' ordinal='6' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Sheet1 (orginal dataset)' inline='true' name='federated.0fhxmms008fri814q1bg00s9ktce' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='orginal dataset' name='excel-direct.0dfnt9j06p3t6o1e7jmol1tzt1ar'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/vishn/Desktop/Rajalakshmi car&apos;s Data Analysis/Dataset/orginal dataset.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0dfnt9j06p3t6o1e7jmol1tzt1ar' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:I652:no:A1:I652:0' header='yes' outcome='2'>
+            <column datatype='string' name='Model Name' ordinal='0' />
+            <column datatype='string' name='link_Service_Type' ordinal='1' />
+            <column datatype='date' name='JobCard Open Date' ordinal='2' />
+            <column datatype='date' name='JC Close Date' ordinal='3' />
+            <column datatype='date' name='Bill Date' ordinal='4' />
+            <column datatype='real' name='Open to Close' ordinal='5' />
+            <column datatype='real' name='Close to Bill' ordinal='6' />
+            <column datatype='real' name='Open to Bill' ordinal='7' />
+            <column datatype='real' name='Time Open to Close' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0dfnt9j06p3t6o1e7jmol1tzt1ar' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:I652:no:A1:I652:0' header='yes' outcome='2'>
+            <column datatype='string' name='Model Name' ordinal='0' />
+            <column datatype='string' name='link_Service_Type' ordinal='1' />
+            <column datatype='date' name='JobCard Open Date' ordinal='2' />
+            <column datatype='date' name='JC Close Date' ordinal='3' />
+            <column datatype='date' name='Bill Date' ordinal='4' />
+            <column datatype='real' name='Open to Close' ordinal='5' />
+            <column datatype='real' name='Close to Bill' ordinal='6' />
+            <column datatype='real' name='Open to Bill' ordinal='7' />
+            <column datatype='real' name='Time Open to Close' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>1</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:I652:no:A1:I652:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Model Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Model Name]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Model Name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIO_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CA9E51123CA945C3AA99DA69D050ADE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>link_Service_Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[link_Service_Type]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>link_Service_Type</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIO_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CA9E51123CA945C3AA99DA69D050ADE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>JobCard Open Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[JobCard Open Date]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>JobCard Open Date</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CA9E51123CA945C3AA99DA69D050ADE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>JC Close Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[JC Close Date]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>JC Close Date</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CA9E51123CA945C3AA99DA69D050ADE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Bill Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Bill Date]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Bill Date</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CA9E51123CA945C3AA99DA69D050ADE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Open to Close</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Open to Close]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Open to Close</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CA9E51123CA945C3AA99DA69D050ADE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Close to Bill</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Close to Bill]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Close to Bill</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CA9E51123CA945C3AA99DA69D050ADE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Open to Bill</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Open to Bill]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Open to Bill</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CA9E51123CA945C3AA99DA69D050ADE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Time Open to Close</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Time Open to Close]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Time Open to Close</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_CA9E51123CA945C3AA99DA69D050ADE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_CA9E51123CA945C3AA99DA69D050ADE3]' role='measure' type='quantitative' />
+      <column caption='link Service Type' datatype='string' name='[link_Service_Type]' role='dimension' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-aliased-fields='true' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_CA9E51123CA945C3AA99DA69D050ADE3'>
+            <properties context=''>
+              <relation connection='excel-direct.0dfnt9j06p3t6o1e7jmol1tzt1ar' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:I652:no:A1:I652:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Model Name' ordinal='0' />
+                  <column datatype='string' name='link_Service_Type' ordinal='1' />
+                  <column datatype='date' name='JobCard Open Date' ordinal='2' />
+                  <column datatype='date' name='JC Close Date' ordinal='3' />
+                  <column datatype='date' name='Bill Date' ordinal='4' />
+                  <column datatype='real' name='Open to Close' ordinal='5' />
+                  <column datatype='real' name='Close to Bill' ordinal='6' />
+                  <column datatype='real' name='Open to Bill' ordinal='7' />
+                  <column datatype='real' name='Time Open to Close' ordinal='8' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 5'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Time Series analysis</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (orginal dataset)' name='federated.0fhxmms008fri814q1bg00s9ktce' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0fhxmms008fri814q1bg00s9ktce'>
+            <column datatype='date' name='[JC Close Date]' role='dimension' type='ordinal' />
+            <column datatype='date' name='[JobCard Open Date]' role='dimension' type='ordinal' />
+            <column-instance column='[JC Close Date]' derivation='Day-Trunc' name='[tdy:JC Close Date:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[JobCard Open Date]' derivation='Day-Trunc' name='[tdy:JobCard Open Date:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+          </pane>
+        </panes>
+        <rows>[federated.0fhxmms008fri814q1bg00s9ktce].[tdy:JC Close Date:qk]</rows>
+        <cols>[federated.0fhxmms008fri814q1bg00s9ktce].[tdy:JobCard Open Date:qk]</cols>
+      </table>
+      <simple-id uuid='{1963C8AF-5EC5-445E-9FFC-09258908FD85}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='72'>
+    <window class='worksheet' maximized='true' name='Sheet 5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0fhxmms008fri814q1bg00s9ktce].[dy:JobCard Open Date:ok]</field>
+            <field>[federated.0fhxmms008fri814q1bg00s9ktce].[none:Model Name:nk]</field>
+            <field>[federated.0fhxmms008fri814q1bg00s9ktce].[none:Time Open to Close:ok]</field>
+            <field>[federated.0fhxmms008fri814q1bg00s9ktce].[tdy:JC Close Date:qk]</field>
+            <field>[federated.0fhxmms008fri814q1bg00s9ktce].[tdy:JobCard Open Date:qk]</field>
+            <field>[federated.0fhxmms008fri814q1bg00s9ktce].[yr:JC Close Date:ok]</field>
+            <field>[federated.0fhxmms008fri814q1bg00s9ktce].[yr:JobCard Open Date:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{C6E0DE40-3CEE-481D-9D9F-25A9F0063C58}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 5' width='192'>
+      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
+      Kxfr/wMlg0hSyFBVAgAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
